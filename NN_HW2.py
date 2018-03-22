@@ -10,7 +10,7 @@ for i in range(10):
     W[i] = temp
 mat_Wg=np.matrix(np.array(W))
 
-# weights generated randomly which are used for step (i) first run
+# weights generated randomly
 W = np.zeros((10,784))
 for i in range(10):
     temp = (1-(-1))*random.sample(784) - 1         
